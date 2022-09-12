@@ -1,2 +1,6 @@
 # WordRememberingPam
-A PAM module to help you remember English words
+## 玩个屁电脑，赶紧去背你的英语单词！
+
+这是一个用来帮助你背英语单词的PAM模块。
+
+开发中，敬请期待……
