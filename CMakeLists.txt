@@ -17,6 +17,8 @@ SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS}")
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${EXTRA_CFLAGS}")
 
 add_library(WordRememberingPam SHARED
+        word_db.c
+        word_db.h
         main.c)
 
 target_link_libraries(WordRememberingPam ${PKGS_DEP_LDFLAGS})
